@@ -36,7 +36,7 @@ const Navbar1 = (props) => {
                   rel="noopener noreferrer"
                   aria-label="Navigates to"
                 >
-                  About Major Tom
+                  Mon Curriculum vitæ
                 </a>
               </li>
               <li className="link">
@@ -46,7 +46,7 @@ const Navbar1 = (props) => {
                   rel="noopener noreferrer"
                   aria-label="Navigates to"
                 >
-                  Photos from a Tin Can
+                  Mon LinkedIn
                 </a>
               </li>
               <li className="link">
