@@ -1,7 +1,6 @@
 import './Navbar.css'
 import React, {useEffect, useState, useRef} from "react";
-import styled, { css } from 'styled-components';
-import StyledMenu from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 const ESC_KEY_CODE = 'Escape';
@@ -152,6 +151,7 @@ class Navbar extends React.Component {
       navIsAnimating,
     } = this.state;
     return (
+        
       <div className="layout">
         <Header
           navOpen={navOpen}
@@ -164,23 +164,7 @@ class Navbar extends React.Component {
           closeNav={event => this.closeNav(event)}
           toggleNavHandler={event => this.toggleNav(event)}
           />
-        <main className="page">
-          <div className="wrap">
-            <div className="title-section text-wrapper">
-              <h1>Is There Life on Mars?</h1>
-              <span className="author">By David Robert Jones</span>
-            </div>
-          </div>
-          <img className="some-image" src="https://images.unsplash.com/photo-1573588028698-f4759befb09a" />
-          <div className="wrap">
-            <div className="text-body text-wrapper">
-              <p>It's a god-awful small affair, to the girl with the mousy hair. But her mummy is yelling, "No!", and her daddy has told her to go. But her friend is nowhere to be seen, now she walks through her sunken dream, to the seat with the clearest view. And she's hooked to the silver screen</p>
-<p><br />But the film is a saddening bore, for she's lived it ten times or more. She could spit in the eyes of fools, as they ask her to focus on sailors fighting in the dance hall; Oh man! Look at those cavemen go; It's the freakiest show. Take a look at the lawman beating up the wrong guy, oh man! Wonder if he'll ever know, he's in the best selling show. Is there life on Mars?</p>
-<p><br />It's on America's tortured brow, that Mickey Mouse has grown up a cow. Now the workers have struck for fame, because Lennon's on sale again. See the mice in their million hordes, from Ibiza to the Norfolk Broads. Rule Britannia is out of bounds to my mother, my dog, and clowns.</p>
-<p><br />But the film is a saddening bore, for she's lived it ten times or more. She could spit in the eyes of fools, as they ask her to focus on sailors fighting in the dance hall; Oh man! Look at those cavemen go; It's the freakiest show. Take a look at the lawman beating up the wrong guy, oh man! Wonder if he'll ever know, he's in the best selling show. Is there life on Mars?</p>
-            </div>
-          </div>
-        </main>
+
       </div>
     );
   }
