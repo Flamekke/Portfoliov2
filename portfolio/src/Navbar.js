@@ -1,6 +1,5 @@
 import './Navbar.css'
 import React, {useEffect, useState, useRef} from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 const ESC_KEY_CODE = 'Escape';

@@ -134,7 +134,7 @@ h6:first-child {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background-color: #000;
+  background-color: #1B1E32;
   transform: translateY(-100vh);
   transition: transform 0.33s ease-out;
   z-index: 5;
@@ -356,7 +356,7 @@ h6:first-child {
 = Page styles =
 ===============================================>>>>>*/
 body {
-  background-color: #404B69;
+  background-color: #141627;
 }
 body main.page {
   margin: 60px 0;
