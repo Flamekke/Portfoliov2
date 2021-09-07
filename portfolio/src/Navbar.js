@@ -48,26 +48,7 @@ const Navbar1 = (props) => {
                   Mon LinkedIn
                 </a>
               </li>
-              <li className="link">
-                <a
-                  href="https://www.nasa.gov/audience/foreducators/stem-on-station/ditl_eating"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Navigates to"
-                >
-                  Shop for Protein Pills
-                </a>
-              </li>
-              <li className="link">
-                <a
-                  href="https://en.wikipedia.org/wiki/Mission_control_center"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Navigates to"
-                >
-                  Contact Ground Control
-                </a>
-              </li>
+
             </ul>
           </div>
           <div className="col col-right col-image">

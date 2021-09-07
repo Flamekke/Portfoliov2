@@ -7,8 +7,9 @@ h1 {
 }
 
 h1 span {
-    color : #FD4470;
-}
+    background: linear-gradient(to right, #CA6CA6, #AA32F7);
+    color: transparent;
+    background-clip: text;}
 
 h2 {
     color : white;
@@ -18,7 +19,10 @@ h2 {
 }
 
 h2 span {
-    color : #FD4470;
+    background: linear-gradient(to right, #CA6CA6, #AA32F7);
+    color: transparent;
+    background-clip: text;
+
 }
 
 .anim {
@@ -34,7 +38,7 @@ h2 span {
     font-size: 20px;
     letter-spacing: 4px;
     position: absolute;
-    background-color: #FD4470;
+    background: linear-gradient(to right, #D17894, #C460B5, #9F29FB, #560DE5);
     left : 10vw;
     top: 50vh;
     border: none;
@@ -50,7 +54,7 @@ h2 span {
   
   .button:hover {
     background: #fff;
-    box-shadow: 0px 2px 10px 5px #FD4470;
+    box-shadow: 0px 2px 10px 5px #BD53C8;
     color: #000;
   }
   
@@ -80,7 +84,7 @@ h2 span {
   
 @media (max-width: 799px) {
 h1 {
-    font-size: 9vw;
+    font-size: 10vw;
     padding-left : 0vw;
 
     text-align: center;
@@ -93,7 +97,7 @@ h2 {
 }
 
 .button {
-    width: 110px;
+    width: 40vw;
     height: 60px;
     font-size: 12px;
     left: 50%;

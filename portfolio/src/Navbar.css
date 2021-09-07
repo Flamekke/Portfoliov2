@@ -226,7 +226,7 @@ h6:first-child {
   content: "";
   height: 2px;
   width: 100%;
-  background-color: #F73859;
+  background-color: #BD53C8;
   border-radius: 4px;
   transform: scaleX(0);
   transform-origin: left center;
@@ -305,7 +305,7 @@ h6:first-child {
 }
 .header .wrap .nav-button:hover {
   cursor: pointer;
-  color: #F73859;
+  color: #BD53C8;
 }
 @media (max-width: 799px) {
   .header .wrap .nav-button {
@@ -335,8 +335,8 @@ h6:first-child {
 }
 
 .header .wrap .nav-button span:hover {
-    color: #F73859;
-    border-color: #F73859;
+    color: #BD53C8;
+    border-color: #BD53C8;
 }
 .header .wrap .nav-button span.active {
   transform: translateY(0%);
@@ -347,7 +347,7 @@ h6:first-child {
 }
 
 .header .wrap .nav-button span.label--nav-open.active:hover {
-    color: #F73859;
+    color: #BD53C8;
 
 }
 

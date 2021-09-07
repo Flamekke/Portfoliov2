@@ -1,7 +1,7 @@
 import './Home.css'
 import React, {useEffect, useState, useRef} from "react";
 import Lottie from 'react-lottie';
-import HomeAnimation from '../asset/18123-developer.json';
+import HomeAnimation from '../asset/63487-programming-computer.json';
 
 
 
@@ -25,6 +25,7 @@ const Home = (props) => {
             <div className="anim">
             <Lottie 
                 options={defaultOptions}
+                autoplay={true}
                 // height={450}
                 // width={450}
             /></div>
