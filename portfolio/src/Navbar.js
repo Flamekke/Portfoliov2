@@ -1,5 +1,7 @@
 import './Navbar.css'
 import React, {useEffect, useState, useRef} from "react";
+import LinkedinAnimation from './asset/49413-linkedin-icon.json';
+import Lottie from 'react-lottie';
 
 
 const ESC_KEY_CODE = 'Escape';
@@ -13,6 +15,15 @@ const Navbar1 = (props) => {
   const keyPressHandler = ({ key }) => {
     if (key === ESC_KEY_CODE && navOpen) {
       closeNav();
+    }
+  };
+
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: LinkedinAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
     }
   };
   React.useEffect(() => {
@@ -48,13 +59,21 @@ const Navbar1 = (props) => {
                   Mon LinkedIn
                 </a>
               </li>
-
+    
             </ul>
           </div>
+          
+
+
+
+          
           <div className="col col-right col-image">
-            <img
-              className="astro"
-              src="https://i.imgur.com/0pWqp5j.png" />
+          <Lottie 
+                options={defaultOptions}
+                loop={false}
+                // height={450}
+                // width={450}
+            />
           </div>
         </div>
       </div>
