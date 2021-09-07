@@ -2,7 +2,7 @@ h1 {
     font-size: 4vw;
     text-align: left;
     padding-left : 10vw;
-    padding-top: 20vh;
+    padding-top: 25vh;
     color : white;
 }
 
@@ -19,24 +19,14 @@ h2 {
 
 h2 span {
     color : #FD4470;
-<<<<<<< HEAD
 }
 
-@media (max-width: 799px) {
-h1 {
-    font-size: 9vw;
-    padding-left : 0vw;
-
-    text-align: center;
+.anim {
+    position: absolute;
+    left: 60vw;
+    margin-top: -20vh;
+    height: 45vh;
 }
-
-h2 {
-    padding-left : 0vw;
-    font-size: 4vw;
-    text-align: center;
-}
-}
-
 
 .button {
     text-transform: uppercase;
@@ -86,6 +76,41 @@ h2 {
   
   .button:focus { outline:0; }
   
-=======
+
+  
+@media (max-width: 799px) {
+h1 {
+    font-size: 9vw;
+    padding-left : 0vw;
+
+    text-align: center;
 }
->>>>>>> 21bf4d906a4bf69d2aaea3733c8a01099a688e6f
+
+h2 {
+    padding-left : 0vw;
+    font-size: 4vw;
+    text-align: center;
+}
+
+.button {
+    width: 110px;
+    height: 60px;
+    font-size: 12px;
+    left: 50%;
+  -ms-transform: translate(-50%, -70%);
+  transform: translate(-50%, -70%);
+
+}
+
+.anim {
+    position: absolute;
+    left: 50%;
+    width: 70%;
+  -ms-transform: translate(-50%, -70%);
+  transform: translate(-50%, -70%);
+      margin-top: 55vh;
+    height: 30%;
+}
+
+}
+
