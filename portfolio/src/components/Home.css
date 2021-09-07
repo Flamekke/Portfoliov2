@@ -19,6 +19,7 @@ h2 {
 
 h2 span {
     color : #FD4470;
+<<<<<<< HEAD
 }
 
 @media (max-width: 799px) {
@@ -85,3 +86,6 @@ h2 {
   
   .button:focus { outline:0; }
   
+=======
+}
+>>>>>>> 21bf4d906a4bf69d2aaea3733c8a01099a688e6f
