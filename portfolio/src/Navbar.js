@@ -1,22 +1,13 @@
 import './Navbar.css'
-import React, {useEffect, useState, useRef} from "react";
+import React from "react";
 import LinkedinAnimation from './asset/60586-developer-isometric-people-working-with-technology.json';
 import Lottie from 'react-lottie';
-
-
-const ESC_KEY_CODE = 'Escape';
 
 const Navbar1 = (props) => {
   const {
     navOpen,
     navIsAnimating,
-    closeNav,
   } = props;
-  const keyPressHandler = ({ key }) => {
-    if (key === ESC_KEY_CODE && navOpen) {
-      closeNav();
-    }
-  };
 
   const defaultOptions = {
     loop: true,
@@ -26,12 +17,7 @@ const Navbar1 = (props) => {
       preserveAspectRatio: "xMidYMid slice"
     }
   };
-  React.useEffect(() => {
-    window.addEventListener('keydown', keyPressHandler);
-    return () => {
-      window.removeEventListener('keydown', keyPressHandler);
-    };
-  }, [navOpen]);
+
   const classes = `${navOpen ? ' active' : ''}${navIsAnimating ? ' is-animating' : ''}`;
   return (
     <div className={`navigation-menu${classes}`}>

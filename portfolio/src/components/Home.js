@@ -1,5 +1,5 @@
 import './Home.css'
-import React, {useEffect, useState, useRef} from "react";
+import React from "react";
 import Lottie from 'react-lottie';
 import HomeAnimation from '../asset/63487-programming-computer.json';
 
