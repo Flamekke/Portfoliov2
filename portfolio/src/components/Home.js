@@ -19,16 +19,35 @@ const Home = (props) => {
 
     return(
         <div>
-            <h1>Hey, I'm <span>Valentin</span></h1>
+        
+          
+
+
+<div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+
+            </ul>
+    </div >
+
+    <h1>Hey, I'm <span>Valentin</span></h1>
             <h2>A <span>student</span> in part-time internship <br />and a <span>Back-End developer</span>.</h2>
             <div><button className="button">See more</button></div>
-            <div className="anim">
+    <div className="anim">
             <Lottie 
                 options={defaultOptions}
                 autoplay={true}
                 // height={450}
                 // width={450}
             /></div>
+            
     </div>
     );
 }
