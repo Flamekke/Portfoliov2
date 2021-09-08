@@ -413,3 +413,6 @@ body .text-body {
   margin-bottom: 120px;
 }
 
+.anim {
+  position: absolute;
+}

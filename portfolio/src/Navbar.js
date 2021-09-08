@@ -1,6 +1,6 @@
 import './Navbar.css'
 import React, {useEffect, useState, useRef} from "react";
-import LinkedinAnimation from './asset/49413-linkedin-icon.json';
+import LinkedinAnimation from './asset/60586-developer-isometric-people-working-with-technology.json';
 import Lottie from 'react-lottie';
 
 
@@ -70,9 +70,7 @@ const Navbar1 = (props) => {
           <div className="col col-right col-image">
           <Lottie 
                 options={defaultOptions}
-                loop={false}
-                // height={450}
-                // width={450}
+                loop={true}
             />
           </div>
         </div>
