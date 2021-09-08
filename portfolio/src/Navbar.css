@@ -413,6 +413,8 @@ body .text-body {
   margin-bottom: 120px;
 }
 
-.anim {
+.dev {
   position: absolute;
+  width: 90vw;
+  top : 50vh;
 }

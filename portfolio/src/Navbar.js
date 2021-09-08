@@ -53,7 +53,7 @@ const Navbar1 = (props) => {
 
 
           
-          <div className="col col-right col-image">
+          <div className="dev">
           <Lottie 
                 options={defaultOptions}
                 loop={true}
