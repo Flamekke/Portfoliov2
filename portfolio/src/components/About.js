@@ -22,16 +22,26 @@ class About extends Component {
 
                 <div class='container'>
                     {/* <div class="title">
-</div> */}
+                    </div> */}
                     <div class="par">
                         <h1>About <span>me</span></h1>
 
                         <p>
-                            Cupiditate alias odio omnis minima veritatis saepe porro, repellendus natus vitae, sequi exercitationem ipsam, qui possimus sit eveniet laborum sapiente quisquam quae neque velit?
+                        Below you can see my experiences, formations and skills,
                         </p>
 
+
+
+                            
+                        
+
+                        
                     </div>
+
+               
+                    
                 </div>
+                
             </div>
         )
     }
