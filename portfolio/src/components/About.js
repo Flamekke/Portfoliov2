@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import './About.css'
-
 class About extends Component {
     
     constructor(props) {
@@ -21,29 +20,21 @@ class About extends Component {
         <div>
 
 
-<div class= 'container'>
-<div class="container_content">
-<div class="container_content_inner">
-<div class="title">
-    <h1>About Me</h1>
-</div>
-<div class="par">
-<p>
-Cupiditate alias odio omnis minima veritatis saepe porro, repellendus natus vitae, sequi exercitationem ipsam, qui possimus sit eveniet laborum sapiente quisquam quae neque velit? 
-</p>
-</div>
-<div class="btns">
-</div>
-</div>
-</div>
+                <div class='container'>
+                    {/* <div class="title">
+</div> */}
+                    <div class="par">
+                        <h1>About <span>me</span></h1>
 
-  </div>
-<div class="overlay"></div>
+                        <p>
+                            Cupiditate alias odio omnis minima veritatis saepe porro, repellendus natus vitae, sequi exercitationem ipsam, qui possimus sit eveniet laborum sapiente quisquam quae neque velit?
+                        </p>
 
-
-        </div>
-    )
-                                            }
+                    </div>
+                </div>
+            </div>
+        )
+    }
 }
 
 
