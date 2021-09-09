@@ -162,7 +162,7 @@ h6:first-child {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 799px) {
+@media (max-width: 1100px) {
   .navigation-menu .wrap {
     position: relative;
     padding-bottom: 40vw;
@@ -173,7 +173,7 @@ h6:first-child {
   display: flex;
   flex-direction: row;
 }
-@media (max-width: 799px) {
+@media (max-width: 1100px) {
   .navigation-menu .wrap .cols {
     flex-direction: column;
   }
@@ -182,7 +182,7 @@ h6:first-child {
   width: 50%;
   flex: 1;
 }
-@media (max-width: 799px) {
+@media (max-width: 1100px) {
   .navigation-menu .wrap .cols .col {
     width: 100%;
     flex: auto;
@@ -211,10 +211,12 @@ h6:first-child {
   color: white;
   text-decoration: none;
   position: relative;
+  left : -300px;
 }
-@media (max-width: 799px) {
+@media (max-width: 1100px) {
   .navigation-menu .wrap .cols .col.col-links .links .link a {
     font-size: 24px;
+    left : 0;
   }
 }
 .navigation-menu .wrap .cols .col.col-links .links .link a:after {
@@ -239,22 +241,22 @@ h6:first-child {
   height: 100%;
   position: relative;
 }
-@media (max-width: 799px) {
+@media (max-width: 1100px) {
   .navigation-menu .wrap .cols .col.col-image {
     position: absolute;
     left: auto;
     right: 0;
     top: auto;
     bottom: 0;
-    height: 40vw;
-    width: 100%;
+ 
     flex: auto;
   }
 }
 .navigation-menu .wrap .cols .col.col-image .astro {
   position: absolute;
-  width: 70%;
-  height: auto;
+  width: 40vw;
+  top : 20vh;
+  height: 40vw;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
@@ -269,7 +271,7 @@ h6:first-child {
     transform: translateX(-50%) translateY(-50%) rotate(360deg);
   }
 }
-@media (max-width: 799px) {
+@media (max-width: 1100px) {
   .navigation-menu .wrap .cols .col.col-image .astro {
     width: 100%;
   }
@@ -307,7 +309,7 @@ h6:first-child {
   cursor: pointer;
   color: #BD53C8;
 }
-@media (max-width: 799px) {
+@media (max-width: 1100px) {
   .header .wrap .nav-button {
     height: 0px;
   }
@@ -361,7 +363,7 @@ body {
 body main.page {
   margin: 60px 0;
 }
-@media (max-width: 799px) {
+@media (max-width: 1100px) {
   body main.page {
     margin: 40px 0 60px;
   }
@@ -376,7 +378,7 @@ body .title-section h1 {
   font-size: 60px;
   margin-bottom: 40px;
 }
-@media (max-width: 799px) {
+@media (max-width: 1100px) {
   body .title-section h1 {
     font-size: 48px;
     text-align: center;
@@ -389,7 +391,7 @@ body .title-section .author {
   letter-spacing: 0.01em;
   margin-bottom: 60px;
 }
-@media (max-width: 799px) {
+@media (max-width: 1100px) {
   body .title-section .author {
     font-size: 18px;
     margin-bottom: 40px;
@@ -404,7 +406,7 @@ body .text-wrapper {
   margin: 0 auto;
   padding: 0 20px;
 }
-@media (max-width: 799px) {
+@media (max-width: 1100px) {
   body .text-wrapper {
     padding: 0;
   }
@@ -415,6 +417,18 @@ body .text-body {
 
 .dev {
   position: absolute;
+  
+  width: 40vw;
+  top : 20vh;
+  left : 50vw
+}
+
+@media (max-width: 1100px) {
+
+.dev {
+  position: absolute;
   width: 90vw;
   top : 50vh;
+  left : 0;
+}
 }
