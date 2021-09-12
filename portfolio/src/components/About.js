@@ -26,7 +26,7 @@ class About extends Component {
                     </div> */}
                     <div class="par">
                         <h1>About <span>me</span></h1>
-                                                      
+                        <h2>My name is Valentin LYON, I am a 4th year student at <br/> Epitech Marseille and a backend developer in the<br/>Travaux.com company located in Aix en Provence</h2>                        
 <div class="wrapper">
         <div class="card">
             <input type="checkbox" id="card1" class="more" aria-hidden="true"/>

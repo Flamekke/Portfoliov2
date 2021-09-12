@@ -6,6 +6,15 @@ h1 {
     color : white;
 }
 
+.par h2 {
+    font-size: 1vw;
+    margin-left : 100px;
+}
+
+.par h1 {
+margin-left : 100px;
+}
+
 h1 span {
     background: linear-gradient(to right, #CA6CA6, #AA32F7);
     color: transparent;
@@ -95,12 +104,20 @@ h1 {
 .par h1 {
     font-size: 15vw;
     padding-top: 10vh;
+    margin-left : 0px;
+
 }
 
 h2 {
     padding-left : 0vw;
     font-size: 4vw;
     text-align: center;
+}
+
+.par h2 {
+    font-size: 3vw;
+    margin-left : 0px;
+
 }
 
 .button {
@@ -332,7 +349,7 @@ h2 {
  
 
 .wrapper {
-    margin-top: 60px;
+    margin-top: 40px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
