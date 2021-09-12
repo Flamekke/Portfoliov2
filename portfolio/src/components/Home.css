@@ -430,7 +430,7 @@ h2 {
     position: relative;
     display: flex;
     align-items: center;
-    color: #355cc9;
+    color: #CA6CA6;
     grid-row: 3;
   }
   .back .info:not(:first-of-type):before {
@@ -449,7 +449,7 @@ h2 {
     font-size: 1.2em;
   }
   .back .info i:before {
-    background: linear-gradient(40deg, #355cc9, #438af3);
+    background: linear-gradient(to right, #CA6CA6, #AA32F7);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
   }
@@ -471,13 +471,14 @@ h2 {
     font-weight: 600;
     line-height: 1.4em;
     overflow: auto;
-    color: #355cc9;
+    background: linear-gradient(to right, #CA6CA6, #AA32F7);
+    color: transparent;
     padding-right: 10px;
   }
   .back .location,
   .back .price {
     font-weight: 600;
-    color: #355cc9;
+    color: #CA6CA6;
     grid-row: 1;
     font-size: 0.86em;
   }
@@ -520,16 +521,16 @@ h2 {
     background-color: #fff;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
     text-shadow: none;
-    color: #355cc9;
+    color: #CA6CA6;
   }
   .button2.return {
     line-height: 3em;
-    color: #355cc9;
-    border-color: #355cc9;
+    color: #CA6CA6;
+    border-color: #CA6CA6;
     text-shadow: none;
   }
   .button2.return:hover {
-    background-color: #355cc9;
+    background-color: #CA6CA6;
     color: #fff;
     box-shadow: none;
   }
@@ -547,7 +548,7 @@ h2 {
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: #355cc9;
+    background: #CA6CA6;
   }
 
   .text {
@@ -560,9 +561,17 @@ h2 {
   .jobTitle {
     color : black;
     text-align: left;
-    width: 100%;
+    width: 95%;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 17px;
+  }
+
+  .degree {
+    color : black;
+    text-align: left;
+    width: 95%;
+    font-weight: 500;
+    font-size: 17px;
   }
 
   @media (max-width: 1100px) {
@@ -572,7 +581,7 @@ h2 {
 
     .back .location,
   .back .price {
-        font-size: 0.70em;
+        font-size: 0.60em;
     }
 
   }

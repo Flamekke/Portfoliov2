@@ -57,8 +57,8 @@ class About extends Component {
                 <div class="back">
                     <div class="inner">
                     <div className='jobTitle'>Back-End developer</div>
-                    <div className='jobTitle' style={{paddingTop:124, position:'absolute', left:25}}>System administrator</div>
-                    <div className='jobTitle' style={{paddingTop:200, position:'absolute', left:25}}>Web Developer</div>
+                    <div className='jobTitle' style={{paddingTop:124, position:'absolute', paddingLeft: 15}}>System administrator</div>
+                    <div className='jobTitle' style={{paddingTop:200, position:'absolute', paddingLeft: 15}}>Web Developer</div>
 
 
                         {/* <div class="info">
@@ -131,52 +131,56 @@ class About extends Component {
                     </div>
                 </div>
                 <div class="back">
-                    <div class="inner">
-                        <div class="info">
-                            <span>4</span>
+                <div class="inner">
+                    <div className='degree' style={{paddingLeft:-30}}>Software Architect (IOT/VR option)</div>
+                    <div className='degree' style={{paddingTop:139, position:'absolute', paddingLeft: 20}}>Web and mobile project manager</div>
+                    <div className='degree' style={{paddingTop:220, position:'absolute', paddingLeft: 20}}>Engineering science</div>
+
+
+                        {/* <div class="info">
+                            <span>5</span>
                             <div class="icon">
-                                <i class="fas fa-users"></i>
+                            <i class="fas fa-users"></i>
                                 <span>people</span>
                             </div>
                         </div>
                         <div class="info">
-                            <span>3</span>
+                            <span>4</span>
                             <div class="icon">
                                 <i class="fas fa-door-open"></i>
                                 <span>rooms</span>
                             </div>
                         </div>
                         <div class="info">
-                            <span>2</span>
+                            <span>3</span>
                             <div class="icon">
                                 <i class="fas fa-bed"></i>
                                 <span>beds</span>
                             </div>
-                        </div>
-                        <div class="info">
+                        </div> */}
+                        {/* <div class="info">
                             <span>1</span>
                             <div class="icon">
                                 <i class="fas fa-bath"></i>
                                 <span>bath</span>
                             </div>
-                        </div>
-                        <div class="description">
-                            <div className='text'>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem unde ea voluptas
-                                fuga
-                                odio vel veniam eveniet, explicabo autem earum?</div>
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                            </ul>
-                        </div>
-                        <div class="location">Warsaw, Poland</div>
-                        <div class="price">42€ / day</div>
+                        </div> */}
+                        {/* <div class="description">
+                            <div className='text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, accusamus.</div>
+                            <div className='text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates earum nostrum ipsam
+                                ullam, reiciendis nam consectetur? Doloribus voluptate architecto possimus perferendis
+                                tenetur nemo amet temporibus, enim soluta nam, debitis.</div>
+                        </div> */}
+                        <div class="location">Epitech Marseille | 2021 - 2023 | Master's degree</div>
+                        <div class="location" style={{paddingTop:90, position:'absolute'}}>Epitech Marseille | 2017 - 2021 | Bachelor's degree</div>
+                        <div class="location" style={{paddingTop:170, position:'absolute'}}>Lycée StLouis | 2014 - 2017 | Scientific baccalaureate</div>
+
+
+                        {/* <div class="price">January 2021 - Today</div> */}
                         <label for="card2" class="button2 return" aria-hidden="true">
                           <FontAwesomeIcon icon={faArrowLeft} />
                         </label>
+                        
                     </div>
                 </div>
             </div>
