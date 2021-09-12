@@ -1,12 +1,9 @@
 import './Projects.css'
-import React, {Component} from "react";
+import React from "react";
 import {Carousel} from '3d-react-carousal';
 
 
 class Projects extends React.Component {
-    constructor(props) {
-      super(props)
-    }
     
     render() {
       let slides = [
