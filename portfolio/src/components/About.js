@@ -1,5 +1,7 @@
 import React, {Component} from "react";
 import './About.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 class About extends Component {
     
     constructor(props) {
@@ -54,10 +56,15 @@ class About extends Component {
                 </div>
                 <div class="back">
                     <div class="inner">
-                        <div class="info">
+                    <div className='jobTitle'>Back-End developer</div>
+                    <div className='jobTitle' style={{paddingTop:124, position:'absolute', left:25}}>System administrator</div>
+                    <div className='jobTitle' style={{paddingTop:200, position:'absolute', left:25}}>Web Developer</div>
+
+
+                        {/* <div class="info">
                             <span>5</span>
                             <div class="icon">
-                                <i class="fas fa-users"></i>
+                            <i class="fas fa-users"></i>
                                 <span>people</span>
                             </div>
                         </div>
@@ -74,28 +81,36 @@ class About extends Component {
                                 <i class="fas fa-bed"></i>
                                 <span>beds</span>
                             </div>
-                        </div>
-                        <div class="info">
+                        </div> */}
+                        {/* <div class="info">
                             <span>1</span>
                             <div class="icon">
                                 <i class="fas fa-bath"></i>
                                 <span>bath</span>
                             </div>
-                        </div>
-                        <div class="description">
+                        </div> */}
+                        {/* <div class="description">
                             <div className='text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, accusamus.</div>
                             <div className='text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates earum nostrum ipsam
                                 ullam, reiciendis nam consectetur? Doloribus voluptate architecto possimus perferendis
                                 tenetur nemo amet temporibus, enim soluta nam, debitis.</div>
-                        </div>
-                        <div class="location">Warsaw, Poland</div>
-                        <div class="price">38€ / day</div>
+                        </div> */}
+                        <div class="location">Travaux.com | Jan 2021 - today</div>
+                        <div class="location" style={{paddingTop:70, position:'absolute'}}>Travaux.com | Sep 2019 - Jan 2020</div>
+                        <div class="location" style={{paddingTop:145, position:'absolute'}}>Auto Ecole Jenft | Dec 2018 - Jan 2019</div>
+
+
+                        {/* <div class="price">January 2021 - Today</div> */}
                         <label for="card1" class="button2 return" aria-hidden="true">
-                            <i class="fas fa-arrow-left"></i>
+                          <FontAwesomeIcon icon={faArrowLeft} />
                         </label>
+                        
                     </div>
+                    
+                    
                 </div>
             </div>
+            
         </div>
         <div class="card">
             <input type="checkbox" id="card2" class="more"/>
@@ -160,7 +175,7 @@ class About extends Component {
                         <div class="location">Warsaw, Poland</div>
                         <div class="price">42€ / day</div>
                         <label for="card2" class="button2 return" aria-hidden="true">
-                            <i class="fas fa-arrow-left"></i>
+                          <FontAwesomeIcon icon={faArrowLeft} />
                         </label>
                     </div>
                 </div>
@@ -227,7 +242,7 @@ class About extends Component {
                         <div class="location">Cracow, Poland</div>
                         <div class="price">60€ / day</div>
                         <label for="card3" class="button2 return" aria-hidden="true">
-                            <i class="fas fa-arrow-left"></i>
+                          <FontAwesomeIcon icon={faArrowLeft} />
                         </label>
                     </div>
                 </div>
