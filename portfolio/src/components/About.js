@@ -227,7 +227,7 @@ class About extends Component {
                         </div> */}
                         <div class="description">
                             <div className='text'>•English(Working in a multinational team)<br/>•Project Management<br/>•Programming languages : PHP, Javascript, C++, C, Java...<br/>
-                            •Frameworks : Symfony, Laravel, ReactJs, React Native, Angular<br/>•Git<br/>•HTML/Css<br/>•API REST / GraphQl<br/>•Object-oriented programming<br/>•ORM (Doctrine)<br/>•MySql<br/>
+                            •Frameworks : Symfony, Laravel, ReactJs, React Native, Angular<br/>•Git<br/>•HTML/Css<br/>•API REST / GraphQl<br/>•Object-oriented programming<br/>•ORM (Doctrine)<br/>•MySQL<br/>
                             •System administration<br/>•Tools : VsCode, Jira, Confluence, Powerpoint, Canva...</div>
                           </div>
                         {/* <div class="location">Cracow, Poland</div>

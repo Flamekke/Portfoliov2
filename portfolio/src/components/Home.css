@@ -477,6 +477,7 @@ h2 {
   .back .description {
     grid-row: 5;
     grid-column: 1/-1;
+    height: 230px;
     font-size: 0.86em;
     border-radius: 5px;
     font-weight: 600;
