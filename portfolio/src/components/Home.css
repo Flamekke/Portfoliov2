@@ -327,6 +327,7 @@ h2 {
  
 
 .wrapper {
+    margin-top: 80px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -387,7 +388,7 @@ h2 {
     display: block;
     border-radius: 6px;
     backface-visibility: hidden;
-    background: linear-gradient(40deg, rgba(67, 138, 243, 0.7), rgba(255, 242, 166, 0.7));
+    background: linear-gradient(to right, #D17894, #C460B5, #9F29FB, #560DE5);
   }
   .front .inner {
     grid-template-rows: 5fr 1fr 1fr 2fr 1fr;
