@@ -618,4 +618,11 @@ h2 {
         font-size: 30px;
     }
 
+    @media (max-width: 340px) {
+        .back .location,
+  .back .price {
+        font-size: 0.50em;
+    }
+    }
+
   }
