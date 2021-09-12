@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import './About.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import Projects from "./Projects";
 class About extends Component {
     
     constructor(props) {
@@ -34,13 +35,7 @@ class About extends Component {
                 <div class="front">
                     <div class="inner">
                         <div className='cardTitle'>Experiences</div>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
+
                         <label for="card1" class="button2" aria-hidden="true">
                             Details
                         </label>
@@ -110,13 +105,7 @@ class About extends Component {
                 <div class="front">
                     <div class="inner">
                         <div className='cardTitle'>Formations</div>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                            <i class="far fa-star"></i>
-                        </div>
+     
                         <label for="card2" class="button2" aria-hidden="true">
                             Details
                         </label>
@@ -183,13 +172,7 @@ class About extends Component {
                 <div class="front">
                     <div class="inner">
                         <div className='cardTitle'>Skills</div>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
+ 
                         <label for="card3" class="button2" aria-hidden="true">
                             Details
                         </label>
@@ -244,10 +227,12 @@ class About extends Component {
                             
                         
 
-                        
+    <h1>Some <span>Projects</span></h1>
+
                     </div>
 
-               
+                    <Projects/>
+
                     
                 </div>
 
