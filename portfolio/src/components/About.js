@@ -226,15 +226,10 @@ class About extends Component {
                             </div>
                         </div> */}
                         <div class="description">
-                            <div className='text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa libero
-                                totam nostrum consequatur autem quae provident quos alias fugit maxime nisi labore,
-                                temporibus tempore illo natus voluptates aliquam ipsum officia quasi placeat aut
-                                facilis
-                                laudantium nam!</div>
-                            <div className='text'>Quam, iusto.Neque ratione ut deserunt unde dicta nesciunt,
-                                repudiandae
-                                aspernatur explicabo numquam! Tenetur!</div>
-                        </div>
+                            <div className='text'>•English(Working in a multinational team)<br/>•Project Management<br/>•Programming languages : PHP, Javascript, C++, C, Java...<br/>
+                            •Frameworks : Symfony, Laravel, ReactJs, React Native, Angular<br/>•Git<br/>•HTML/Css<br/>•API REST / GraphQl<br/>•Object-oriented programming<br/>•ORM (Doctrine)<br/>•MySql<br/>
+                            •System administration<br/>•Tools : VsCode, Jira, Confluence, Powerpoint, Canva...</div>
+                          </div>
                         {/* <div class="location">Cracow, Poland</div>
                         <div class="price">60€ / day</div> */}
                         <label for="card3" class="button2 return" aria-hidden="true">
