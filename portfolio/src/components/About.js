@@ -125,7 +125,7 @@ class About extends Component {
                 <div class="back">
                 <div class="inner">
                     <div className='degree' style={{paddingLeft:-30}}>Software Architect (IOT/VR option)</div>
-                    <div className='degree' style={{paddingTop:139, position:'absolute', paddingLeft: 20}}>Web and mobile project manager</div>
+                    <div className='degree' style={{paddingTop:144, position:'absolute', paddingLeft: 20}}>Web and mobile project manager</div>
                     <div className='degree' style={{paddingTop:220, position:'absolute', paddingLeft: 20}}>Engineering science</div>
 
 
@@ -164,7 +164,7 @@ class About extends Component {
                                 tenetur nemo amet temporibus, enim soluta nam, debitis.</div>
                         </div> */}
                         <div class="location">Epitech Marseille | 2021 - 2023 | Master's degree</div>
-                        <div class="location" style={{paddingTop:90, position:'absolute'}}>Epitech Marseille | 2017 - 2021 | Bachelor's degree</div>
+                        <div class="location" style={{paddingTop:95, position:'absolute'}}>Epitech Marseille | 2017 - 2021 | Bachelor's degree</div>
                         <div class="location" style={{paddingTop:170, position:'absolute'}}>Lycée StLouis | 2014 - 2017 | Scientific baccalaureate</div>
 
 
