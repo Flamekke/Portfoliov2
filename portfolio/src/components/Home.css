@@ -332,7 +332,7 @@ h2 {
  
 
 .wrapper {
-    margin-top: 80px;
+    margin-top: 60px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -431,6 +431,12 @@ h2 {
     grid-column-gap: 0.8em;
     justify-items: center;
   }
+  .back .inner .variant {
+    grid-template-rows: 1fr 2fr 1fr 2fr 14fr 1fr 1fr;
+    grid-template-columns: repeat(4, auto);
+    grid-column-gap: 0.8em;
+    justify-items: center;
+  }
   .back .info {
     position: relative;
     display: flex;
@@ -476,7 +482,7 @@ h2 {
     font-weight: 600;
     line-height: 1.4em;
     overflow: auto;
-    background: linear-gradient(to right, #CA6CA6, #AA32F7);
+    background: white;
     color: transparent;
     padding-right: 10px;
   }
@@ -549,7 +555,7 @@ h2 {
   }
   
   ::-webkit-scrollbar-thumb {
-    background: #859ddf;
+    background: #CA6CA6;
   }
   
   ::-webkit-scrollbar-thumb:hover {

@@ -4,7 +4,6 @@ import Lottie from 'react-lottie';
 import HomeAnimation from '../asset/63487-programming-computer.json';
 import About from './About';
 
-
 class Home extends Component {
 
         constructor(props) {

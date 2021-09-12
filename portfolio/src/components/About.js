@@ -49,8 +49,8 @@ class About extends Component {
                 <div class="back">
                     <div class="inner">
                     <div className='jobTitle'>Back-End developer</div>
-                    <div className='jobTitle' style={{paddingTop:124, position:'absolute', paddingLeft: 15}}>System administrator</div>
-                    <div className='jobTitle' style={{paddingTop:200, position:'absolute', paddingLeft: 15}}>Web Developer</div>
+                    <div className='jobTitle' style={{paddingTop:124, position:'absolute', paddingLeft: 22}}>System administrator</div>
+                    <div className='jobTitle' style={{paddingTop:200, position:'absolute', paddingLeft: 22}}>Web Developer</div>
 
 
                         {/* <div class="info">
@@ -197,7 +197,7 @@ class About extends Component {
                 </div>
                 <div class="back">
                     <div class="inner">
-                        <div class="info">
+                        {/* <div class="info">
                             <span>8</span>
                             <div class="icon">
                                 <i class="fas fa-users"></i>
@@ -224,7 +224,7 @@ class About extends Component {
                                 <i class="fas fa-bath"></i>
                                 <span>baths</span>
                             </div>
-                        </div>
+                        </div> */}
                         <div class="description">
                             <div className='text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa libero
                                 totam nostrum consequatur autem quae provident quos alias fugit maxime nisi labore,
@@ -235,8 +235,8 @@ class About extends Component {
                                 repudiandae
                                 aspernatur explicabo numquam! Tenetur!</div>
                         </div>
-                        <div class="location">Cracow, Poland</div>
-                        <div class="price">60€ / day</div>
+                        {/* <div class="location">Cracow, Poland</div>
+                        <div class="price">60€ / day</div> */}
                         <label for="card3" class="button2 return" aria-hidden="true">
                           <FontAwesomeIcon icon={faArrowLeft} />
                         </label>
