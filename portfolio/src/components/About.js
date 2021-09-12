@@ -49,8 +49,8 @@ class About extends Component {
                 <div class="back">
                     <div class="inner">
                     <div className='jobTitle'>Back-End developer</div>
-                    <div className='jobTitle' style={{paddingTop:124, position:'absolute', paddingLeft: 15}}>System administrator</div>
-                    <div className='jobTitle' style={{paddingTop:200, position:'absolute', paddingLeft: 15}}>Web Developer</div>
+                    <div className='jobTitle' style={{paddingTop:124, position:'absolute', paddingLeft: 25}}>System administrator</div>
+                    <div className='jobTitle' style={{paddingTop:200, position:'absolute', paddingLeft: 25}}>Web Developer</div>
 
 
                         {/* <div class="info">
