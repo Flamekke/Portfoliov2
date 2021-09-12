@@ -92,6 +92,10 @@ h1 {
     text-align: center;
 }
 
+.par h1 {
+    font-size: 15vw;
+}
+
 h2 {
     padding-left : 0vw;
     font-size: 4vw;
@@ -582,6 +586,11 @@ h2 {
     .back .location,
   .back .price {
         font-size: 0.60em;
+    }
+
+    .front .cardTitle {
+
+        font-size: 30px;
     }
 
   }

@@ -22,18 +22,10 @@ class About extends Component {
         <div>
 
 
-                <div class='container'>
                     {/* <div class="title">
                     </div> */}
                     <div class="par">
                         <h1>About <span>me</span></h1>
-
-                        <p>
-                        Below you can see my experiences, formations and skills,
-                        </p>
-
-
-
                                                       
 <div class="wrapper">
         <div class="card">
@@ -267,7 +259,6 @@ class About extends Component {
 
                 
                 
-            </div>
         )
     }
 }
