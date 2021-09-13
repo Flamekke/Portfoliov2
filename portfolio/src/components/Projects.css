@@ -53,6 +53,7 @@
   }
   .card__image {
     transition: 0.5s ease-in-out;
+
   }
   .card__caption {
     position: absolute;
@@ -82,6 +83,7 @@
     text-overflow: ellipsis;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
+    color : 
   }
   .card__snippet {
     display: -webkit-box;

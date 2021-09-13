@@ -1,7 +1,8 @@
 import './Projects.css'
 import React from "react";
 import appitech from '../asset/Appitech.jpg';
-
+import messagerie from '../asset/messagerie.jpg'
+import amazon from '../asset/amazon.png'
 
 class Projects extends React.Component {
     
@@ -27,10 +28,10 @@ class Projects extends React.Component {
 
   <div class="card10">
 		<figure class="card__thumb">
-			<img src="https://source.unsplash.com/qXMpNtNp1uE/300x510" alt="Picture by Daniel Lincoln" class="card__image"/>
+			<img src={messagerie} style={{height:510}} class="card__image"/>
 			<figcaption class="card__caption">
-				<div class="card__title">Why You Should Bring Your Dog To Work</div>
-				<div class="card__snippet">On Friday, offices around the country celebrated the 15th annual Take Your Dog to Work Day. Though the event's primary goal is to raise awareness for pet adoption, the unanticipated impact may be a slightly more relaxing work environment for any office choosing to participate.</div>
+				<div class="card__title">MyTeams</div>
+				<div class="card__snippet">Web messaging application, channel creation / deletion / modification, private messages, friend invitation... <br/>Angular / PHP Symfony</div>
 				{/* <a href="" class="card__button">Read more</a> */}
 			</figcaption>
 		</figure>
@@ -39,10 +40,10 @@ class Projects extends React.Component {
 
 	<div class="card10">
 		<figure class="card__thumb">
-			<img src="https://source.unsplash.com/qXMpNtNp1uE/300x510" alt="Picture by Daniel Lincoln" class="card__image"/>
+			<img src={amazon} style={{height:510}} class="card__image"/>
 			<figcaption class="card__caption">
-				<div class="card__title">Why You Should Bring Your Dog To Work</div>
-				<div class="card__snippet">On Friday, offices around the country celebrated the 15th annual Take Your Dog to Work Day. Though the event's primary goal is to raise awareness for pet adoption, the unanticipated impact may be a slightly more relaxing work environment for any office choosing to participate.</div>
+				<div class="card__title">Amazon</div>
+				<div class="card__snippet">E Commerce web application, sale / purchase / modification of object, creation of baskets, orders, creation of invoices... <br/>Angular / PHP Symfony</div>
 				{/* <a href="" class="card__button">Read more</a> */}
 			</figcaption>
 		</figure>
