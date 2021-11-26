@@ -22,8 +22,8 @@ export default function Projects() {
     return (
         <div>
       <Navbar status = {"articles"}/>
-      <div class="aa">Some <span>Projects</span></div>
-    <div class="sm:grid grid-cols-4 gap-4">
+      <div class="aa" style={{marginTop:"-80px"}}>Some <span>Projects</span></div>
+    <div class="sm:grid grid-cols-4 gap-4" style={{paddingTop:"40px"}}>
     {data.crypto.map((item,index)=>{
       return <Project title={item.title} articleLink={item.articleLink} imgUrl={item.imgUrl} tag={item.tag}/>
     })}

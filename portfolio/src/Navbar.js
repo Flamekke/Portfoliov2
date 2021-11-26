@@ -53,15 +53,6 @@ const Navbar1 = (props) => {
               </li>
               <li className="link">
                 <a
-                  href="https://en.wikipedia.org/wiki/David_Bowie"
-                  rel="noopener noreferrer"
-                  aria-label="Navigates to"
-                >
-                  Mon Curriculum vitæ
-                </a>
-              </li>
-              <li className="link">
-                <a
                   href="https://images.nasa.gov/"
                   rel="noopener noreferrer"
                   aria-label="Navigates to"
@@ -69,6 +60,16 @@ const Navbar1 = (props) => {
                   Mon LinkedIn
                 </a>
               </li>
+              <li className="link">
+                <a
+                  href="https://en.wikipedia.org/wiki/David_Bowie"
+                  rel="noopener noreferrer"
+                  aria-label="Navigates to"
+                >
+                  Mon Curriculum vitæ
+                </a>
+              </li>
+
     
             </ul>
           </div>
