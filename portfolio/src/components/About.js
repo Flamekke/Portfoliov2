@@ -3,6 +3,7 @@ import './About.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import Projects from "./Projects";
+import Navbar from "../Navbar";
 class About extends Component {
     
     constructor(props) {
@@ -11,6 +12,23 @@ class About extends Component {
           show:true
         };
       }
+
+       data = {
+        crypto: [
+        {
+            title: 'LE BITCOIN VOUS ALLEZ PAS CROIRE LE 10EME',
+            articleLink: "https://www.cafedelabourse.com/archive/article/bitcoins-monnaie-virtuelle-investir-crypto-monnaie",
+            imgUrl: 'https://www.journaldugeek.com/content/uploads/2021/04/bitcoin-image.jpg',
+            tag : ["crypto", "bitcoin"]
+        },
+        {
+            title: 'LE BRANDONCOIN DEVIENT LA PREMIERE MONNAIE DE TESLA',
+            articleLink: "https://www.cafedelabourse.com/archive/article/bitcoins-monnaie-virtuelle-investir-crypto-monnaie",
+            imgUrl: 'https://static.timesofisrael.com/www/uploads/2020/01/Untitled-28.jpg',
+            tag : ["crypto", "brandoncoin"]
+        },
+    ] 
+    }
 
       
       showTable() {
@@ -21,12 +39,14 @@ class About extends Component {
     render() {
     return (
         <div>
+                                                  <Navbar/>
+
 
 
                     {/* <div class="title">
                     </div> */}
                     <div class="par">
-                        <h1>About <span>me</span></h1>
+                        <h1 style={{marginTop:"20px"}}>About <span>me</span></h1>
                         <h2>My name is Valentin LYON, I am a 4th year student at <br/> Epitech Marseille and a backend developer in the<br/>Travaux.com company located in Aix en Provence</h2>                        
 <div class="wrapper">
         <div class="card">
@@ -152,6 +172,7 @@ class About extends Component {
                                 ullam, reiciendis nam consectetur? Doloribus voluptate architecto possimus perferendis
                                 tenetur nemo amet temporibus, enim soluta nam, debitis.</div>
                         </div> */}
+                        
                         <div class="location">Epitech Marseille | 2021 - 2023 | Master's degree</div>
                         <div class="location" style={{paddingTop:95, position:'absolute'}}>Epitech Marseille | 2017 - 2021 | Bachelor's degree</div>
                         <div class="location" style={{paddingTop:170, position:'absolute'}}>Lycée StLouis | 2014 - 2017 | Scientific baccalaureate</div>
@@ -230,8 +251,11 @@ class About extends Component {
     <h1>Some <span>Projects</span></h1>
 
                     </div>
+                    <div class="sm:grid grid-cols-4 gap-4">
 
-                    <Projects/>
+                    {this.data.crypto.map((item,index)=>{
+      return <Projects title={item.title} articleLink={item.articleLink} imgUrl={item.imgUrl} tag={item.tag}/>
+    })}</div>
 
                     
                 </div>

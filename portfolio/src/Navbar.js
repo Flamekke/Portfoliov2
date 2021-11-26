@@ -25,10 +25,26 @@ const Navbar1 = (props) => {
         <div className="cols">
           <div className="col col-left col-links">
             <ul className="links">
+            <li className="link">
+                <a
+                  href="/"
+                  rel="noopener noreferrer"
+                  aria-label="Navigates to"
+                >
+                  Home
+                </a>
+              </li><li className="link">
+                <a
+                  href="/about"
+                  rel="noopener noreferrer"
+                  aria-label="Navigates to"
+                >
+                  About me
+                </a>
+              </li>
               <li className="link">
                 <a
                   href="https://en.wikipedia.org/wiki/David_Bowie"
-                  target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Navigates to"
                 >
@@ -38,7 +54,6 @@ const Navbar1 = (props) => {
               <li className="link">
                 <a
                   href="https://images.nasa.gov/"
-                  target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Navigates to"
                 >

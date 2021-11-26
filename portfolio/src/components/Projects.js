@@ -1,60 +1,34 @@
-import './Projects.css'
 import React from "react";
-import appitech from '../asset/Appitech.jpg';
-import messagerie from '../asset/messagerie.jpg'
-import amazon from '../asset/amazon.png'
 
-class Projects extends React.Component {
-    
-    render() {
- 
-      return (
-        <div>
+export default function Projects(props) {
 
-<div class="container10" style={{marginTop:70}}>
+  const card = props.card;
 
-<div class="card10">
-		<figure class="card__thumb">
-			<img src={appitech} style={{height:600}} class="card__image"/>
-			<figcaption class="card__caption">
-				<div class="card__title">Appitech</div>
-				<div class="card__snippet">Intranet of my school, mobile application version, view your schedule, profile, projects, modules, notifications...<br/>React Native / PHP Laravel</div>
-				{/* <a href="" class="card__button">Read more</a> */}
-			</figcaption>
-		</figure>
-	</div>
-
-
-
-  <div class="card10">
-		<figure class="card__thumb">
-			<img src={messagerie} style={{height:510}} class="card__image"/>
-			<figcaption class="card__caption">
-				<div class="card__title">MyTeams</div>
-				<div class="card__snippet">Web messaging application, channel creation / deletion / modification, private messages, friend invitation... <br/>Angular / PHP Symfony</div>
-				{/* <a href="" class="card__button">Read more</a> */}
-			</figcaption>
-		</figure>
-	</div>
-
-
-	<div class="card10">
-		<figure class="card__thumb">
-			<img src={amazon} style={{height:510}} class="card__image"/>
-			<figcaption class="card__caption">
-				<div class="card__title">Amazon</div>
-				<div class="card__snippet">E Commerce web application, sale / purchase / modification of object, creation of baskets, orders, creation of invoices... <br/>Angular / PHP Symfony</div>
-				{/* <a href="" class="card__button">Read more</a> */}
-			</figcaption>
-		</figure>
-	</div>
-</div>
-
-
-
-        </div>
-      );
-    }
+  function open(){
+    window.open("https://www.cafedelabourse.com/archive/article/bitcoins-monnaie-virtuelle-investir-crypto-monnaie", '_blank');
   }
-  
-export default Projects
+
+  return (
+    
+    <div class="p-10 " >  
+    <div class="max-w-sm rounded overflow-hidden shadow-lg " style={{backgroundColor: 'white'}}>
+      <img class="w-full" src={props.imgUrl} alt="Mountain"/>
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">{props.title}</div>
+      </div>
+      <button onClick={open}
+                  className="group relative w-full  justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-pink-600 hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                >
+                  <span className="absolute left-0 inset-y-0 flex items-center pl-3">
+                  </span>
+                  See more
+      </button>
+      <div class="px-6 pt-4 pb-2">
+        {props.tag.map((item,index)=>{
+          return <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#{item}</span>
+        })}
+      </div>
+    </div>
+  </div>
+  );
+}

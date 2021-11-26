@@ -1,8 +1,12 @@
 import './Home.css'
 import React, { Component } from "react";
 import Lottie from 'react-lottie';
+import { Link } from 'react-router-dom'
 import HomeAnimation from '../asset/63487-programming-computer.json';
 import About from './About';
+import {withRouter} from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
+import Navbar from '../Navbar';
 
 class Home extends Component {
 
@@ -14,17 +18,19 @@ class Home extends Component {
               }
 
               showTable() {
-                this.setState({
-                  show: true
-                });
+                
+              }
+
+              nextPath(path) {
+                this.props.history.push(path);
               }
 
         render() {
                 return (
-                        
                         <div>
-                                {
-                                        !this.state.show && <div>
+                                      <Navbar/>
+
+<div>
                                 <div class="area" >
                                         <ul class="circles">
                                                 <li></li>
@@ -41,7 +47,8 @@ class Home extends Component {
 
                                 <h1>Hey, I'm <span>Valentin</span></h1>
                                 <h2>A <span>student</span> in part-time internship <br />and a <span>Back-End developer</span>.</h2>
-                                <div><button onClick={() => this.showTable()} className="button">See more</button></div>
+                                <div> <Link to="/about"><button className="button">See more</button></Link>
+                                </div>
                                 <div className="anim">
                                         <Lottie
                                                 options={{
@@ -57,12 +64,7 @@ class Home extends Component {
                                         // width={450}
                                         /></div>
 
-                                        </div>}
-                                {
-                                
-                                this.state.show && <About/>
-                                
-                                }
+                                        </div>
                         </div>
                 );
 
