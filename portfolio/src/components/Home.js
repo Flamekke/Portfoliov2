@@ -42,8 +42,8 @@ class Home extends Component {
                                         </ul>
                                 </div >
 
-                                <h1>Hey, I'm <span>Valentin</span></h1>
-                                <h2>A <span>student</span> in part-time internship <br />and a <span>Back-End developer</span>.</h2>
+                                <div class="aa">Hey, I'm <span>Valentin</span></div>
+                                <div class="bb">A <span>student</span> in part-time internship <br />and a <span>Back-End developer</span>.</div>
                                 <div> <Link to="/about"><button className="button">See more</button></Link>
                                 </div>
                                 <div className="anim">

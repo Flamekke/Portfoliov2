@@ -2,7 +2,6 @@ import React, {Component} from "react";
 import './About.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
-import Projects from "./Projects";
 import Navbar from "../Navbar";
 class About extends Component {
     
@@ -12,23 +11,6 @@ class About extends Component {
           show:true
         };
       }
-
-       data = {
-        crypto: [
-        {
-            title: 'LE BITCOIN VOUS ALLEZ PAS CROIRE LE 10EME',
-            articleLink: "https://www.cafedelabourse.com/archive/article/bitcoins-monnaie-virtuelle-investir-crypto-monnaie",
-            imgUrl: 'https://www.journaldugeek.com/content/uploads/2021/04/bitcoin-image.jpg',
-            tag : ["crypto", "bitcoin"]
-        },
-        {
-            title: 'LE BRANDONCOIN DEVIENT LA PREMIERE MONNAIE DE TESLA',
-            articleLink: "https://www.cafedelabourse.com/archive/article/bitcoins-monnaie-virtuelle-investir-crypto-monnaie",
-            imgUrl: 'https://static.timesofisrael.com/www/uploads/2020/01/Untitled-28.jpg',
-            tag : ["crypto", "brandoncoin"]
-        },
-    ] 
-    }
 
       
       showTable() {
@@ -46,8 +28,8 @@ class About extends Component {
                     {/* <div class="title">
                     </div> */}
                     <div class="par">
-                        <h1 style={{marginTop:"20px"}}>About <span>me</span></h1>
-                        <h2>My name is Valentin LYON, I am a 4th year student at <br/> Epitech Marseille and a backend developer in the<br/>Travaux.com company located in Aix en Provence</h2>                        
+                        <div class="aa" style={{marginTop:"20px"}}>About <span>me</span></div>
+                        <div class="bb">My name is Valentin LYON, I am a 4th year student at <br/> Epitech Marseille and a backend developer in the<br/>Travaux.com company located in Aix en Provence</div>                        
 <div class="wrapper">
         <div class="card">
             <input type="checkbox" id="card1" class="more" aria-hidden="true"/>
@@ -246,18 +228,10 @@ class About extends Component {
     </div>                                
                       
                             
-                        
-
-    <h1>Some <span>Projects</span></h1>
-
-                    </div>
-                    <div class="sm:grid grid-cols-4 gap-4">
-
-                    {this.data.crypto.map((item,index)=>{
-      return <Projects title={item.title} articleLink={item.articleLink} imgUrl={item.imgUrl} tag={item.tag}/>
-    })}</div>
-
                     
+
+                </div>
+   
                 </div>
 
 

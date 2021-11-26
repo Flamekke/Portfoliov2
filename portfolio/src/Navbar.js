@@ -44,6 +44,15 @@ const Navbar1 = (props) => {
               </li>
               <li className="link">
                 <a
+                  href="/projects"
+                  rel="noopener noreferrer"
+                  aria-label="Navigates to"
+                >
+                  Some projects
+                </a>
+              </li>
+              <li className="link">
+                <a
                   href="https://en.wikipedia.org/wiki/David_Bowie"
                   rel="noopener noreferrer"
                   aria-label="Navigates to"

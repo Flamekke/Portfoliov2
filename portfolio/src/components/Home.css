@@ -1,4 +1,4 @@
-h1 {
+.aa {
     font-size: 4vw;
     text-align: left;
     padding-left : 10vw;
@@ -6,30 +6,31 @@ h1 {
     color : white;
 }
 
-.par h2 {
+.par .bb {
     font-size: 1vw;
     margin-left : 100px;
 }
 
-.par h1 {
+.par .aa {
 margin-left : 100px;
 }
 
-h1 span {
+.aa span {
     background: linear-gradient(to right, #CA6CA6, #AA32F7);
     color: transparent;
     background-clip: text;
 
 }
 
-h2 {
+.bb {
     color : white;
     font-size: 1.7vw;
     text-align: left;
     padding-left : 10vw;
+    margin-top: 35px;
 }
 
-h2 span {
+.bb span {
     background: linear-gradient(to right, #CA6CA6, #AA32F7);
     color: transparent;
     background-clip: text;
@@ -94,27 +95,27 @@ h2 span {
 
   
 @media (max-width: 1100px) {
-h1 {
+.aa {
     font-size: 10vw;
     padding-left : 0vw;
 
     text-align: center;
 }
 
-.par h1 {
+.par .aa {
     font-size: 15vw;
     padding-top: 10vh;
     margin-left : 0px;
 
 }
 
-h2 {
+.bb {
     padding-left : 0vw;
     font-size: 4vw;
     text-align: center;
 }
 
-.par h2 {
+.par .bb {
     font-size: 3vw;
     margin-left : 0px;
 
@@ -127,7 +128,7 @@ h2 {
     left: 50%;
   -ms-transform: translate(-50%, -70%);
   transform: translate(-50%, -70%);
-
+  top: 50vh;
 }
 
 .anim {
@@ -140,6 +141,18 @@ h2 {
     height: 30%;
 }
 
+}
+
+@media (max-height: 680px) {
+  .button {
+    width: 40vw;
+    height: 60px;
+    font-size: 12px;
+    left: 50%;
+  -ms-transform: translate(-50%, -70%);
+  transform: translate(-50%, -70%);
+  top: 60vh;
+}
 }
 
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
