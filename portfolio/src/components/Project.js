@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Projects(props) {
+export default function Project(props) {
 
   function open(){
     window.open("https://www.cafedelabourse.com/archive/article/bitcoins-monnaie-virtuelle-investir-crypto-monnaie", '_blank');
