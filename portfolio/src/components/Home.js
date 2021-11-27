@@ -26,9 +26,9 @@ class Home extends Component {
                 return (
                         <div>
                                       <Navbar/>
-
-<div>
-                                <div class="area" >
+                                      
+                                        
+                                      <div class="area" >
                                         <ul class="circles">
                                                 <li></li>
                                                 <li></li>
@@ -41,6 +41,9 @@ class Home extends Component {
 
                                         </ul>
                                 </div >
+
+<div>
+                           
 
                                 <div class="aa">Hey, I'm <span>Valentin</span></div>
                                 <div class="bb">A <span>student</span> in part-time internship <br />and a <span>Back-End developer</span>.</div>
@@ -59,9 +62,16 @@ class Home extends Component {
                                                 autoplay={true}
                                         // height={450}
                                         // width={450}
+
+                                        
                                         /></div>
 
+                                        
+
                                         </div>
+
+
+
                         </div>
                 );
 
