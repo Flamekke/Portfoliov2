@@ -141,9 +141,8 @@
       position: relative;
       display: inline-block;
       top: 20px;
-      margin-bottom: 30px;
       width: 277px;
-      height: 50px;
+      height: 70px;
       font-size: 1em;
       font-weight: bold;
       line-height: 60px;
@@ -156,7 +155,9 @@
       font-weight:600;
       font-size:17px;
       letter-spacing: 0.045em;
-      left: 13vw;
+      left : 0;
+      display: block;
+      margin : auto;
   }
 
   
