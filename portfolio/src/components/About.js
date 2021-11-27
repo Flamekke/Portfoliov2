@@ -45,9 +45,9 @@ class About extends Component {
                 </div>
                 <div class="back">
                     <div class="inner">
-                    <div className='jobTitle'>Back-End developer</div>
-                    <div className='jobTitle' style={{paddingTop:124, position:'absolute', paddingLeft: 22}}>System administrator</div>
-                    <div className='jobTitle' style={{paddingTop:200, position:'absolute', paddingLeft: 22}}>Web Developer</div>
+                    <div className='jobTitle' style={{paddingTop:0}}>Back-End developer</div>
+                    <div className='jobTitle' style={{paddingTop:164, position:'absolute', paddingLeft: 22}}>System administrator</div>
+                    <div className='jobTitle' style={{paddingTop:240, position:'absolute', paddingLeft: 22}}>Web Developer</div>
 
 
                         {/* <div class="info">
@@ -84,9 +84,9 @@ class About extends Component {
                                 ullam, reiciendis nam consectetur? Doloribus voluptate architecto possimus perferendis
                                 tenetur nemo amet temporibus, enim soluta nam, debitis.</div>
                         </div> */}
-                        <div class="location">Travaux.com | Jan 2021 - today</div>
-                        <div class="location" style={{paddingTop:70, position:'absolute'}}>Travaux.com | Sep 2019 - Jan 2020</div>
-                        <div class="location" style={{paddingTop:145, position:'absolute'}}>Auto Ecole Jenft | Dec 2018 - Jan 2019</div>
+                        <div class="location" style={{paddingTop:10}}>Travaux.com | Jan 2021 - today</div>
+                        <div class="location" style={{paddingTop:110, position:'absolute'}}>Travaux.com | Sep 2019 - Jan 2020</div>
+                        <div class="location" style={{paddingTop:185, position:'absolute'}}>Auto Ecole Jenft | Dec 2018 - Jan 2019</div>
 
 
                         {/* <div class="price">January 2021 - Today</div> */}
@@ -116,8 +116,8 @@ class About extends Component {
                 <div class="back">
                 <div class="inner">
                     <div className='degree' style={{paddingLeft:-30}}>Software Architect (IOT/VR option)</div>
-                    <div className='degree' style={{paddingTop:144, position:'absolute', paddingLeft: 20}}>Web and mobile project manager</div>
-                    <div className='degree' style={{paddingTop:220, position:'absolute', paddingLeft: 20}}>Engineering science</div>
+                    <div className='degree' style={{paddingTop:156, position:'absolute', paddingLeft: 20}}>Web and mobile project manager</div>
+                    <div className='degree' style={{paddingTop:230, position:'absolute', paddingLeft: 20}}>Engineering science</div>
 
 
                         {/* <div class="info">
@@ -156,8 +156,8 @@ class About extends Component {
                         </div> */}
                         
                         <div class="location">Epitech Marseille | 2021 - 2023 | Master's degree</div>
-                        <div class="location" style={{paddingTop:95, position:'absolute'}}>Epitech Marseille | 2017 - 2021 | Bachelor's degree</div>
-                        <div class="location" style={{paddingTop:170, position:'absolute'}}>Lycée StLouis | 2014 - 2017 | Scientific baccalaureate</div>
+                        <div class="location" style={{paddingTop:105, position:'absolute'}}>Epitech Marseille | 2017 - 2021 | Bachelor's degree</div>
+                        <div class="location" style={{paddingTop:180, position:'absolute'}}>Lycée StLouis | 2014 - 2017 | Scientific baccalaureate</div>
 
 
                         {/* <div class="price">January 2021 - Today</div> */}
