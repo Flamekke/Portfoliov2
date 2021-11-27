@@ -1,8 +1,10 @@
 import React, {Component} from "react";
 import './About.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import { faArrowLeft} from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight} from '@fortawesome/free-solid-svg-icons'
 import Navbar from "../Navbar";
+import { Link } from 'react-router-dom'
 class About extends Component {
     
     constructor(props) {
@@ -22,14 +24,30 @@ class About extends Component {
     return (
         <div>
                                                   <Navbar/>
+                                                  <link href='https://fonts.googleapis.com/css?family=Lato|Roboto:400,900' rel='stylesheet' type='text/css'/>
+                                                  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"/>
 
 
 
                     {/* <div class="title">
                     </div> */}
+                    
                     <div class="par">
                         <div class="aa" style={{marginTop:"20px"}}>About <span>me</span></div>
                         <div class="bb">My name is Valentin LYON, I am a 4th year student at <br/> Epitech Marseille and a backend developer in the<br/>Travaux.com company located in Aix en Provence</div>                        
+
+                        <a href="http://marcel-pirnay.be/" class="btn">
+  <svg width="277" height="62">
+    <defs>
+        <linearGradient id="grad1">
+            <stop offset="0%" stop-color="#FF8282"/>
+            <stop offset="100%" stop-color="#E178ED" />
+        </linearGradient>
+    </defs>
+     <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
+  </svg>
+  <Link to="/projects"><svg width="277" height="62"/><span>See some projects <FontAwesomeIcon icon={faArrowRight} style={{color:"#E57ADE", position:"relative"}}/> </span> </Link>
+</a>
 <div class="wrapper">
         <div class="card">
             <input type="checkbox" id="card1" class="more" aria-hidden="true"/>
@@ -225,12 +243,12 @@ class About extends Component {
                 </div>
             </div>
         </div>
+        
     </div>                                
-                      
-                            
-                    
 
                 </div>
+
+                
    
                 </div>
 
