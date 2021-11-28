@@ -1,6 +1,9 @@
 import Navbar from "../Navbar";
+import React, { useState, useEffect } from 'react';
 import Project from "../components/Project";
 import "../components/About.css"
+import Loader from "../components/Loader"
+
 export default function Projects() {
 
   const data = {
@@ -19,8 +22,16 @@ export default function Projects() {
     },
 ] 
 }
+
+      const [isLoading, setIsLoading] = useState(true);
+
+      useEffect(() => {
+        setTimeout(() => setIsLoading(false), 1000)
+      });
+
+
     return (
-        <div>
+      isLoading ? <Loader/> : <div>
       <Navbar status = {"articles"}/>
       <div class="aa" style={{marginTop:"-80px"}}>Some <span>Projects</span></div>
     <div class="sm:grid grid-cols-4 gap-4" style={{paddingTop:"40px"}}>
