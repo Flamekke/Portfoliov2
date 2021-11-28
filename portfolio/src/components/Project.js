@@ -7,8 +7,10 @@ export default function Project(props) {
   }
 
   return (
-    
-    <div class="p-10 " >  
+    <div>
+
+    <div class="p-10 " > 
+
     <div class="max-w-sm rounded overflow-hidden shadow-lg " style={{backgroundColor: 'white'}}>
       <img class="w-full" src={props.imgUrl} alt="Mountain"/>
       <div class="px-6 py-4">
@@ -27,6 +29,7 @@ export default function Project(props) {
         })}
       </div>
     </div>
+  </div>
   </div>
   );
 }

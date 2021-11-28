@@ -136,6 +136,7 @@ h6:first-child {
   width: 100vw;
   height: 100vh;
   background-color: #1B1E32;
+  text-align: center;
   transform: translateY(-100vh);
   transition: transform 0.33s ease-out;
   z-index: 5;
@@ -178,6 +179,11 @@ h6:first-child {
   .navigation-menu .wrap .cols {
     flex-direction: column;
   }
+}
+
+@media (max-height: 1100px) {
+
+
 }
 .navigation-menu .wrap .cols .col {
   width: 50%;
@@ -419,8 +425,8 @@ body .text-body {
 .dev {
   position: absolute;
   
-  width: 40vw;
-  top : 20vh;
+  width: 30vw;
+  top : 15vh;
   left : 50vw
 }
 

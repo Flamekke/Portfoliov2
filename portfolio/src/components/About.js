@@ -5,14 +5,21 @@ import { faArrowLeft} from '@fortawesome/free-solid-svg-icons'
 import { faArrowRight} from '@fortawesome/free-solid-svg-icons'
 import Navbar from "../Navbar";
 import { Link } from 'react-router-dom'
+import Loader from "./Loader"
 class About extends Component {
-    
-    constructor(props) {
-        super(props);
-        this.state = {
-          show:true
-        };
+
+
+    constructor() {
+        super();
+        this.state = { isLoading: true }
+    }
+
+    isLoading;
+
+    componentDidMount() {
+        this.timer = setTimeout(() => this.setState({isLoading: false}), 1000)
       }
+      
 
       
       showTable() {
@@ -20,9 +27,14 @@ class About extends Component {
           show: true
         });
       }
+      
+
+      
     render() {
+
+        
     return (
-        <div>
+        this.state.isLoading ? <Loader/>: <div>
                                                   <Navbar/>
                                                   <link href='https://fonts.googleapis.com/css?family=Lato|Roboto:400,900' rel='stylesheet' type='text/css'/>
                                                   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"/>
@@ -46,7 +58,7 @@ class About extends Component {
     </defs>
      <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
   </svg>
-  <Link to="/projects"><svg width="277" height="62"/><span>See some projects <FontAwesomeIcon icon={faArrowRight} style={{color:"#E57ADE", position:"relative"}}/> </span> </Link>
+<Link to="/projects"><svg width="277" height="62"/><span>See some projects <FontAwesomeIcon icon={faArrowRight} style={{color:"#E57ADE", position:"relative"}}/> </span> </Link>
 </a>
 <div class="wrapper">
         <div class="card">
@@ -134,8 +146,8 @@ class About extends Component {
                 <div class="back">
                 <div class="inner">
                     <div className='degree' style={{paddingLeft:-30}}>Software Architect (IOT/VR option)</div>
-                    <div className='degree' style={{paddingTop:156, position:'absolute', paddingLeft: 20}}>Web and mobile project manager</div>
-                    <div className='degree' style={{paddingTop:230, position:'absolute', paddingLeft: 20}}>Engineering science</div>
+                    <div className='degree' style={{paddingTop:180, position:'absolute', paddingLeft: 20}}>Web and mobile project manager</div>
+                    <div className='degree' style={{paddingTop:245, position:'absolute', paddingLeft: 20}}>Engineering science</div>
 
 
                         {/* <div class="info">
@@ -174,8 +186,8 @@ class About extends Component {
                         </div> */}
                         
                         <div class="location">Epitech Marseille | 2021 - 2023 | Master's degree</div>
-                        <div class="location" style={{paddingTop:105, position:'absolute'}}>Epitech Marseille | 2017 - 2021 | Bachelor's degree</div>
-                        <div class="location" style={{paddingTop:180, position:'absolute'}}>Lycée StLouis | 2014 - 2017 | Scientific baccalaureate</div>
+                        <div class="location" style={{paddingTop:130, position:'absolute'}}>Epitech Marseille | 2017 - 2021 | Bachelor's degree</div>
+                        <div class="location" style={{paddingTop:195, position:'absolute'}}>Lycée StLouis | 2014 - 2017 | Scientific baccalaureate</div>
 
 
                         {/* <div class="price">January 2021 - Today</div> */}
@@ -247,7 +259,6 @@ class About extends Component {
     </div>                                
 
                 </div>
-
                 
    
                 </div>

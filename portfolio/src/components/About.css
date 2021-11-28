@@ -67,7 +67,7 @@
   }
   
   .btn span{
-    background: rgb(255,130,130);
+    background: #FF8282;
     background: -moz-linear-gradient(left,  #FF8282 0%, #E178ED 100%);
     background: -webkit-linear-gradient(left,  #FF8282 0%, #E178ED 100%);
     background: linear-gradient(to right,  #FF8282 0%, #E178ED 100%);
@@ -142,7 +142,7 @@
       display: inline-block;
       top: 20px;
       width: 277px;
-      height: 70px;
+      height: 130px;
       font-size: 1em;
       font-weight: bold;
       line-height: 60px;

@@ -4,6 +4,7 @@ import Lottie from 'react-lottie';
 import { Link } from 'react-router-dom'
 import HomeAnimation from '../asset/63487-programming-computer.json';
 import Navbar from '../Navbar';
+import Loader from "./Loader"
 
 class Home extends Component {
 
@@ -12,6 +13,11 @@ class Home extends Component {
                 this.state = {
                   show:false
                 };
+                this.state = { isLoading: true }
+              }
+
+              componentDidMount() {
+                this.timer = setTimeout(() => this.setState({isLoading: false}), 1000)
               }
 
               showTable() {
@@ -24,7 +30,7 @@ class Home extends Component {
 
         render() {
                 return (
-                        <div>
+                        this.state.isLoading ? <Loader/> : <div>
                                       <Navbar/>
                                       
                                         
