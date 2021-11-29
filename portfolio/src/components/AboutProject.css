@@ -1,3 +1,15 @@
+.goback {
+    position: absolute;
+    left : 1vw;
+    top : 2vh;
+    font-size: 20px;
+    color: #f034b1;
+}
+
+.goback:hover {
+    color : #d4249a;
+}
+
 @media (max-width: 680px) {
     .btn {
         position: absolute;
@@ -7,6 +19,6 @@
     svg {
         height: 0vh;
         width: 0vw;
-        left : 0;
+        left : 1vw;
     }
 }

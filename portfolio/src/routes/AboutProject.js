@@ -8,7 +8,7 @@ export default function AboutProject() {
         <div>
         <Navbar/>
 
-            <Link to="/projects"><svg width="277" height="62"/><span style={{color: "#E57ADE"}}><FontAwesomeIcon icon={faArrowLeft} style={{color:"#E57ADE", position:"relative"}}/> Back</span> </Link>
+            <Link to="/projects"><div class="goback"><FontAwesomeIcon icon={faArrowLeft} style={{position:"relative"}}/> &nbsp; Back</div> </Link>
         </div>
     );
 }
