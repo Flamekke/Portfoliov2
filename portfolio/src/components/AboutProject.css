@@ -1,0 +1,12 @@
+@media (max-width: 680px) {
+    .btn {
+        position: absolute;
+        left : 0;
+    }
+
+    svg {
+        height: 0vh;
+        width: 0vw;
+        left : 0;
+    }
+}

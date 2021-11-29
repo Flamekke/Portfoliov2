@@ -10,6 +10,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import About from './components/About'
 import Projects from './routes/Projects';
+import AboutProject from './routes/AboutProject';
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
@@ -18,6 +19,7 @@ ReactDOM.render(
         <Route path="/" element={<App />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/about-project" element={<AboutProject />} />
       </Routes>
   </BrowserRouter>,
 rootElement
