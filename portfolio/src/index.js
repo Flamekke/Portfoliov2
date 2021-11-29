@@ -19,7 +19,7 @@ ReactDOM.render(
         <Route path="/" element={<App />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/about-project" element={<AboutProject />} />
+        <Route path="/about-project/:title" element={<AboutProject />} />
       </Routes>
   </BrowserRouter>,
 rootElement
