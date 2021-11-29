@@ -4,6 +4,10 @@ import Project from "../components/Project";
 import "../components/About.css"
 import Loader from "../components/Loader"
 import AppitechLogo from "../asset/AppitechLogo.png"
+import Amazone from "../asset/Amazone.png"
+import MyTeams from "../asset/MyTeams.png"
+import Epicture from "../asset/Epicture.png"
+import TrelloReborn from "../asset/TrelloReborn.png"
 
 export default function Projects() {
 
@@ -16,11 +20,35 @@ export default function Projects() {
         description: "Mobile application based on the Epitech school intranet, provides access to its planning, projects, modules, profiles, notifications ..."
     },
     {
-        title: 'LE BRANDONCOIN DEVIENT LA PREMIERE MONNAIE DE TESLA',
-        imgUrl: 'https://static.timesofisrael.com/www/uploads/2020/01/Untitled-28.jpg',
-        tag : ["crypto", "brandoncoin"],
-        description : "coucou2"
+        title: 'Amazone',
+        imgUrl: Amazone,
+        tag : ["PHP", "Symfony", "Angular"],
+        description : "E-commerce site giving the possibility to add articles, create a basket, have an invoice..."
     },
+    {
+      title: 'MyTeams',
+      imgUrl: MyTeams,
+      tag : ["NodeJs", "ReactJs", "Socker.io", "ElectronJs"],
+      description : "Web and desktop messaging application, allowing to send private messages, create channels ..."
+  },
+  {
+    title: 'TimeManager',
+    imgUrl: MyTeams,
+    tag : ["Elixir", "Phoenix", "VueJs", "Docker", "CI/CD"],
+    description : "Web application for management of working time and salary according to the role, management and creation of teams, fully containerized application thanks to docker"
+},
+{
+  title: 'Epicture',
+  imgUrl: Epicture,
+  tag : ["React Native", "Imgur API", "Gradle"],
+  description : "Mobile application using the API of Imgur, allowing to save photos, to add some, to favor some ..."
+},
+{
+  title: 'TrelloReborn',
+  imgUrl: TrelloReborn,
+  tag : ["Angular", "Spring", "Java"],
+  description : "Web dashboard using APIs (weather, crypto, stock market ...) to display, modify and move widgets"
+},
 ] 
 }
 
