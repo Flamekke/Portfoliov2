@@ -8,7 +8,7 @@ import Amazone from "../asset/Amazone.png"
 import MyTeams from "../asset/MyTeams.png"
 import Epicture from "../asset/Epicture.png"
 import TrelloReborn from "../asset/TrelloReborn.png"
-
+import EpiCosmos from "../asset/EpiCosmos.png"
 export default function Projects() {
 
   const data = {
@@ -48,6 +48,12 @@ export default function Projects() {
   imgUrl: TrelloReborn,
   tag : ["Angular", "Spring", "Java"],
   description : "Web dashboard using APIs (weather, crypto, stock market ...) to display, modify and move widgets"
+},
+{
+  title: 'EpiCosmos',
+  imgUrl: EpiCosmos,
+  tag : ["Angular", "NodeJs"],
+  description : "Project developed as part of a hackaton, application allowing to locate and have the information of a satellite thanks to an API"
 },
 ] 
 }

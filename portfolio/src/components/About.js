@@ -46,7 +46,7 @@ class About extends Component {
                     
                     <div class="par">
                         <div class="aa" style={{marginTop:"20px"}}>About <span>me</span></div>
-                        <div class="bb">My name is Valentin LYON, I am a 4th year student at <br/> Epitech Marseille and a backend developer in the<br/>Travaux.com company located in Aix en Provence</div>                        
+                        <div class="bb">My name is Valentin LYON, I am a 4th year student at <br/> Epitech Marseille and a backend developer at<br/>Instapro Group (Travaux.com, Werkspot.nl, MyHammer.de, MyHammer.at, Instapro.it)</div>                        
 
                         <a href="http://marcel-pirnay.be/" class="btn">
   <svg width="277" height="62">
@@ -145,8 +145,8 @@ class About extends Component {
                 </div>
                 <div class="back">
                 <div class="inner">
-                    <div className='degree' style={{paddingLeft:-30}}>Software Architect (IOT/VR option)</div>
-                    <div className='degree' style={{paddingTop:180, position:'absolute', paddingLeft: 20}}>Web and mobile project manager</div>
+                    <div className='degree' style={{paddingLeft:-30}}>Software Architect</div>
+                    <div className='degree' style={{paddingTop:165, position:'absolute', paddingLeft: 20}}>Web and mobile project manager</div>
                     <div className='degree' style={{paddingTop:245, position:'absolute', paddingLeft: 20}}>Engineering science</div>
 
 
@@ -186,7 +186,7 @@ class About extends Component {
                         </div> */}
                         
                         <div class="location">Epitech Marseille | 2021 - 2023 | Master's degree</div>
-                        <div class="location" style={{paddingTop:130, position:'absolute'}}>Epitech Marseille | 2017 - 2021 | Bachelor's degree</div>
+                        <div class="location" style={{paddingTop:110, position:'absolute'}}>Epitech Marseille | 2017 - 2021 | Bachelor's degree</div>
                         <div class="location" style={{paddingTop:195, position:'absolute'}}>Lycée StLouis | 2014 - 2017 | Scientific baccalaureate</div>
 
 
